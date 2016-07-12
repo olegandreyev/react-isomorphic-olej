@@ -1,1 +1,2 @@
-npm install -> webpack && node run
+npm install
+npm run start
