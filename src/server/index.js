@@ -66,6 +66,7 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <title>Redux Universal Example</title>
+        <link rel='stylesheet' href='./dist/styles.css'>
       </head>
       <body>
         <div id="app"><div>${html}</div></div>

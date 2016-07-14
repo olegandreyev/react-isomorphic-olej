@@ -18,7 +18,8 @@ module.exports = {
     plugins:[
         new webpack.NoErrorsPlugin(),
         new webpack.DefinePlugin({
-            NODE_ENV:JSON.stringify(NODE_ENV)
+            NODE_ENV:JSON.stringify(NODE_ENV),
+            'process.env.BROWSER':JSON.stringify(true)
         }),
         new ExtractTextPlugin("styles.css")
     ],
