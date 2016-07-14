@@ -10,6 +10,9 @@ class Users extends React.Component {
     static fetchData({ store, params }) {
         return store.dispatch(fetchUsers())
     }
+    componentDidMount(){
+        this.props.fetchUsers();
+    }
     render() {
         const {users} = this.props;
         return (

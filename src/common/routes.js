@@ -3,11 +3,12 @@
  */
 
 import React from 'react';
-import { Route } from 'react-router'
-import {App, Users} from './containers'
+import { Route, IndexRoute } from 'react-router'
+import {App, Users, Login} from './containers'
 export default function() {
     const routes = (
         <Route path="/" component={App}>
+            <IndexRoute component={Login}/>
             <Route path="users" component={Users}/>
         </Route>
     );

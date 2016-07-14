@@ -4,3 +4,4 @@
 
 export { App } from './app'
 export { Users } from './users'
+export { Login } from './login'
