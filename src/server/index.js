@@ -9,7 +9,6 @@ import createMemoryHistory from 'history/lib/createMemoryHistory';
 import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import { match, RouterContext } from 'react-router'
-import { counter } from '../common/reducers'
 import getRoutes from '../common/routes'
 import configureStore from '../common/configureStore'
 
